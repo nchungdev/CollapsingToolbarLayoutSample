@@ -28,5 +28,10 @@ class MainActivity : AppCompatActivity() {
             recycler_vertical.adapter = ItemAdapter(items, false)
         })
         appBarLayout.addOnOffsetChangedListener(AppBarLayoutScrollListener(this))
+
+        viewModel.detectionViewsViewModel.detectionLiveData.observe(this, Observer {
+            it ?: return@Observer
+            container.drawDetectionViews(it)
+        })
     }
 }

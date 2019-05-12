@@ -14,4 +14,6 @@
     <dimen name="margin12">12dp</dimen>
     <dimen name="cardview_radius">2dp</dimen>
     <dimen name="cardview_elevation">4dp</dimen>
+    <dimen name="min_size">24dp</dimen>
+    <dimen name="max_size">48dp</dimen>
 </resources>

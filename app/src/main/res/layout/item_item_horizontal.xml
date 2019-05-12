@@ -30,7 +30,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:background="@drawable/bg_rectangle"
+        android:background="@drawable/bg_rectangle_blue"
         android:cropToPadding="true"
         android:padding="2dp"
         tools:ignore="ContentDescription"/>
