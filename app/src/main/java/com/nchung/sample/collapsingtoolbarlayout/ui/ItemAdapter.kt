@@ -29,7 +29,6 @@ class ItemAdapter(private val list: List<Item>, private val isHorizontal: Boolea
     fun updateItemsAlphaValue(alpha: Float) {
         list.map { it.alpha = alpha }
         notifyDataSetChanged()
-        Log.e("Scroll", "alpha $alpha")
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

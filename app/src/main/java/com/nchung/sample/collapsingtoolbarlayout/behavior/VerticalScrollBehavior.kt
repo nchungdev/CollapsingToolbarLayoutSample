@@ -15,7 +15,7 @@ class VerticalScrollBehavior(context: Context, attrs: AttributeSet) :
         dependency is NestedScrollView
 
     override fun onDependentViewChanged(parent: CoordinatorLayout, child: RecyclerView, dependency: View): Boolean {
-        child.y = dependency.y + dependency.findViewById<View>(R.id.root).height
+        child.y = dependency.y + dependency.findViewById<View>(R.id.scroll_container).height
         return super.onDependentViewChanged(parent, child, dependency)
     }
 }
