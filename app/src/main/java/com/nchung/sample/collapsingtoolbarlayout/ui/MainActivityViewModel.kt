@@ -16,20 +16,18 @@ class MainActivityViewModel : ViewModel() {
             Item("Item 2"),
             Item("Item 3"),
             Item("Item 4"),
+            Item("Item 4"),
+            Item("Item 4"),
+            Item("Item 4"),
+            Item("Item 4"),
             Item("Item 5"),
-            Item("Item 6"),
-            Item("Item 7"),
-            Item("Item 8"),
-            Item("Item 9"),
-            Item("Item 10")
+            Item("Item 5"),
+            Item("Item 5"),
+            Item("Item 5"),
+            Item("Item 5")
         )
         horizontalList.postValue(list)
         val items = arrayListOf<Item>()
-        items.addAll(list)
-        items.addAll(list)
-        items.addAll(list)
-        items.addAll(list)
-        items.addAll(list)
         items.addAll(list)
         items.addAll(list)
         items.addAll(list)
